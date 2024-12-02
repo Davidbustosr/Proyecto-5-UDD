@@ -1,0 +1,54 @@
+/* Contenedor para los filtros */
+.filters {
+  width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+  max-width: 600px; /* Limita el ancho máximo */
+  margin: 20px auto; /* Centra horizontalmente y añade espacio superior/inferior */
+  padding: 20px; /* Espaciado interno */
+  background-color: #ffffff; /* Fondo blanco */
+  border: 1px solid #e0e6ed; /* Borde gris claro */
+  border-radius: 12px; /* Esquinas redondeadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para elevar el diseño */
+}
+
+/* Etiquetas de los filtros */
+.filters label {
+  display: block; /* Cada etiqueta ocupa una línea completa */
+  font-size: 25px; /* Tamaño del texto */
+  margin-bottom: 15px; /* Espaciado inferior */
+  color: #213547; /* Color oscuro */
+}
+
+/* Entradas y desplegables */
+.filters input,
+.filters select {
+  width: 100%; /* Ocupan todo el ancho disponible */
+  padding: 10px; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño del texto */
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 8px; /* Esquinas redondeadas */
+  margin-bottom: 16px; /* Espaciado inferior */
+  box-sizing: border-box; /* Incluye padding en el ancho total */
+}
+
+/* Botón para aplicar filtros */
+.filters button {
+  width: calc(50% - 5px); /* Ocupa el 50% del ancho disponible con margen */
+  padding: 12px; /* Espaciado interno */
+  font-size: 1rem; /* Tamaño del texto */
+  border: none; /* Sin borde */
+  border-radius: 8px; /* Esquinas redondeadas */
+  background-color: #213547; /* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  cursor: pointer; /* Cambia el puntero al pasar sobre el botón */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+.filters button:hover {
+  background-color: #535bf2; /* Fondo azul más claro al pasar el ratón */
+}
+
+/* Otras opciones:
+   - Usar `grid` en lugar de flex para disposición más estructurada.
+   - Cambiar `box-shadow` para aumentar o reducir la profundidad del contenedor.
+   - Añadir diferentes colores para entradas activas, deshabilitadas o con error.
+*/

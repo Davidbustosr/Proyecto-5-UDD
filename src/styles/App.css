@@ -1,0 +1,42 @@
+/* Estilo principal para estructurar la aplicación y hacerla responsiva */
+.app {
+  display: flex; /* Configura un contenedor flexbox para disposición vertical */
+  flex-direction: column; /* Ordena los elementos hijos verticalmente */
+  min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+}
+
+/* Estilo del encabezado */
+header {
+  background-color: #213547; /* Color de fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 20px; /* Espaciado interno */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-size: 1.5rem; /* Tamaño del texto */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+}
+
+/* Contenedor principal de la aplicación */
+main {
+  flex: 1; /* Permite que el contenido principal ocupe el espacio restante */
+  display: flex; /* Usar flexbox para alinear contenido */
+  flex-direction: column; /* Ordena elementos verticalmente */
+  align-items: center; /* Centra el contenido horizontalmente */
+  justify-content: center; /* Centra el contenido verticalmente */
+  padding: 20px; /* Espaciado interno */
+  width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+/* Estilo del pie de página */
+footer {
+  text-align: center; /* Centra el texto */
+  background-color: #213547; /* Color de fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 10px; /* Espaciado interno */
+  margin-top: auto; /* Asegura que el pie de página esté al final */
+}
+
+/* Otras opciones: 
+   - Cambiar la dirección de los elementos en .app a `row` para disposición horizontal.
+   - Añadir gradientes en el `background-color` del header o footer.
+   - Usar `gap` para espaciado entre elementos del contenedor flex.
+*/
