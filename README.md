@@ -108,5 +108,5 @@ Si tienes preguntas o sugerencias, no dudes en crear un issue o enviar un pull r
 
 ## **Autor**
 
-- **Nombre del Estudiante**
-- Contacto: [tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)
+- **David Bustos**
+- 
